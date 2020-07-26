@@ -10,8 +10,8 @@
   ],
   "scripts": {
     "start": "node ./build/index.js",
-    "createServer": "tsnd --project ./tsconfig.json --respawn ./src/index.ts",
-    "server": "tsc"
+    "build": "tsc",
+    "createServer": "tsnd --project ./tsconfig.json --respawn ./src/index.ts"
   },
   "dependencies": {
     "express": "4.17.1"
